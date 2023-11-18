@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "celery-with-flask"
+version = "0.1.0"
+description = "This is a celery project"
+authors = ["Raufur Rahman <raufur.rahman@brilliant.com.bd>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+flask = "2.2.2"
+celery = "5.2.7"
+redis = "4.4.0"
+werkzeug = "2.2.2"
+flower = "1.2.0"
+flask-migrate = "4.0.0"
+flask-sqlalchemy = "3.0.2"
+wheel = "^0.41.3"
+pysqlite3 = "^0.5.2"
+psycopg2-binary = "^2.9.9"
+flask-celeryext = "0.4.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
